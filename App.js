@@ -1,8 +1,12 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const parent = React.createElement("div",{id: "parent"},
+
 React.createElement("div",{id: "child"},
 [
-React.createElement("h1",{},"I am an h1 tag"),
-React.createElement("h2",{},"I am an h2 tag")] // array of children inside child class
+React.createElement("h1",{},"This is Namastey React"),
+React.createElement("h2",{},"Iwas an h2 tag")] // array of children inside child class
 ));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

@@ -1,0 +1,34 @@
+{
+  "name": "namastey-react",
+  "version": "1.0.0",
+  "description": "This is Namastey React",
+ 
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemant3245/Namaste-React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Hemant Jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hemant3245/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/hemant3245/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist" : [
+    "last 2 Chrome version",
+    "last 2 Firefox version"
+  ]
+}
