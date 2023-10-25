@@ -15,3 +15,11 @@
 - code splitting
 - Differential Bundling
 - Tree Shaking
+
+#  "scripts": {
+    "start":  "parcel index.html",
+    "build": "parcel build index.html"
+}
+
+- Description start will be used as Dev Build
+- Build will be used as Prod Build
